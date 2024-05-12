@@ -1,7 +1,5 @@
 package com.sof.amh.security;
 
-import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
 
 public class UserPrincipalAuthenticationToken extends AbstractAuthenticationToken {
